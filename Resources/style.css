@@ -41,10 +41,9 @@ body {
 }
 
 #new-quote {
-  float: right;
-  border: 0;
+    float: right;
+    border: 0;
     background-color: teal;
-    display: inline-block;
     color: #fff;
     font-size: 16px;
     padding: 7px 10px;
