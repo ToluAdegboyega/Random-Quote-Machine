@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease-in;
+}
+
+body {
+  background-color: teal;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: white;
+  width: 500px;
+  padding: 30px;
+  margin: auto;
+  border-radius: 5px;
+  color: teal;
+}
+
+#text {
+  font-size: 30px;
+  padding: 10px;
+  text-align:center;
+}
+
+#author {
+  text-align: center;
+  padding: 10px;
+}
+
+.share {
+  padding: 20px;
+}
+
+#new-quote {
+  float: right;
+  border: 0;
+    background-color: teal;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#tweet-quote {
+  border: 0;
+    background-color: teal;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#new-quote:hover {
+    opacity: 0.7;
+  }
+
+#tweet-quote:hover {
+    opacity: 0.7;
+  }
+
+#credit {
+  padding-top: 100px;
+  color: white;
+}
