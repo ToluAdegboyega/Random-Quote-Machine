@@ -13,11 +13,12 @@ body {
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 #quote-box {
   background-color: white;
-  width: 500px;
+  width: 100vw;
   padding: 30px;
   margin: auto;
   border-radius: 5px;
