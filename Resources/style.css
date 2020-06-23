@@ -16,6 +16,10 @@ body {
   margin-top: 10px;
 }
 
+.container-fluid {
+  margin: 0;
+}
+
 #quote-box {
   background-color: white;
   width: 500px;
