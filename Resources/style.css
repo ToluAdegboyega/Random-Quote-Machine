@@ -25,10 +25,6 @@ body {
   margin-right: 10px;
   border-radius: 5px;
   color: teal;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
 }
 
 #text {
@@ -47,38 +43,39 @@ body {
 }
 
 #new-quote {
-    float: right;
-    border: 0;
-    background-color: teal;
-    color: #fff;
-    font-size: 16px;
-    padding: 7px 10px;
-    border-radius: 5px;
-    margin-top: 30px;
-    cursor: pointer;
-    text-decoration: none;
+  float: right;
+  border: 0;
+  background-color: teal;
+  color: #fff;
+  font-size: 16px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 #tweet-quote {
   border: 0;
-    background-color: teal;
-    display: inline-block;
-    color: #fff;
-    font-size: 16px;
-    padding: 7px 10px;
-    border-radius: 5px;
-    margin-top: 30px;
-    cursor: pointer;
-    text-decoration: none;
+  background-color: teal;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 #new-quote:hover {
-    opacity: 0.7;
-  }
+  opacity: 0.7;
+}
 
 #tweet-quote:hover {
-    opacity: 0.7;
-  }
+  opacity: 0.7;
+}
+
 
 #credit {
   padding-top: 30px;
