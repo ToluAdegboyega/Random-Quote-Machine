@@ -16,13 +16,6 @@ body {
   margin-top: 10px;
 }
 
-.container-fluid {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 #quote-box {
   background-color: white;
   width: 500px;
