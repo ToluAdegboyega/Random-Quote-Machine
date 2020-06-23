@@ -16,9 +16,6 @@ body {
   margin-top: 10px;
 }
 
-.container-fluid {
-  margin: 0;
-}
 
 #quote-box {
   background-color: white;
@@ -28,6 +25,10 @@ body {
   margin-right: 10px;
   border-radius: 5px;
   color: teal;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
 }
 
 #text {
