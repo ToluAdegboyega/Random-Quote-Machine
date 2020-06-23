@@ -18,9 +18,10 @@ body {
 
 #quote-box {
   background-color: white;
-  width: 100vw;
+  width: 500px;
   padding: 30px;
-  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 5px;
   color: teal;
 }
